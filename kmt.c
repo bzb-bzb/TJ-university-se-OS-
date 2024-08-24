@@ -107,7 +107,6 @@ void kmt_teardown(task_t *task) { panic("Not implemented!"); }
 /******************** spin lock ************************/
 
 // 任何其他线程、中断处理程序、其他处理器都不能同时得到同一把锁
-// Taken from xv6
 // Check whether this cpu is holding the lock.
 // Interrupts must be off.
 
